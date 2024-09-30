@@ -9,24 +9,56 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div>
-                <a href="#">MariLo Bank</a>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#">INICIO</a>
-                    </li>
-                    <li>
-                        <a href="./pages/home_banking.html">CONTACTO</a>
-                    </li>
-                </ul>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand">MARILO BANK</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
         </nav>
     </header>
     <main>
-
+        <section class="bg-light text-dark p-5 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <h1 class="display-4">MARILO BANK</h1>
+                        <p class="lead">Crea tu cuenta en pocos pasos y descubre los beneficios que podemos ofrecerte.</p>
+                        <a href="#" class="btn btn-lg mt-3 btn-color">¡Regístrate!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div>
+                    <img src="./assets/2148968928.jpg" alt="Mujer ingresando a su cuenta bancaria a través de una notebook">
+                </div>
+                <div>
+                    <article>
+                        <h2>REGÍSTRATE Y PIDE TU CUENTA AHORA</h2>
+                        <P>En tan solo unos simples pasos podés crear tu cuenta con nosotros y empezar a disfrutar de nuestro beneficios</P>
+                        <form action="/my-handling-form-page" method="post">
+                            <ul>
+                                <li>
+                                    <label for="name">Nombre:</label>
+                                    <input type="text" id="name" name="user_name" />
+                                </li>
+                                <li>
+                                    <label for="id">DOCUMENTO:</label>
+                                    <input type="email" id="mail" name="user_mail" />
+                                </li>
+                                <li class="button">
+                                    <button class="btn-color btn btn-md mt" type="submit">INGRESAR</button>
+                                </li>
+                            </ul>
+                        </form>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 
 

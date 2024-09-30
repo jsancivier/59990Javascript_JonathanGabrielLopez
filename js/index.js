@@ -3,7 +3,7 @@ let claveUsuario;
 
 function registroUsuario(){   
 
-    let nombreUsuario = prompt("Por favor, ingresé su nombre de preferencia");
+    let registroUsuario = prompt("Por favor, ingresé su nombre de preferencia");
     
     while(true){ 
         documentoPersonal = parseInt(prompt("Por favor, ingresé su número de DNI sin puntos o espacios"));
